@@ -1,0 +1,142 @@
+#container{
+    display: flex;
+    max-width: 900px;
+    margin:auto;
+    background-color: rgb(253, 128, 128);
+    align-items: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background-image: url(bg-intro-mobile.png);
+  
+    
+}
+#left_one{
+    margin: 30px;
+    padding: 50px;
+
+}
+#left_one>h1{
+    color: white;
+
+}
+#left_one>h3{
+    font-size: 11px;
+    color: white;
+    font-weight: lighter;
+    line-height: 18px;
+}
+#then_sub{
+color:lightgray;
+}
+#right_one{
+    margin: 50px;
+    text-align: center;
+}
+#right_one >button{
+    background-color: rgb(87, 54, 179);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-width: 0;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    font-size:10px;
+    width: 100%;
+}
+#input_field{
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}
+#input_field >input{
+    align-items: center;
+    margin-top: 10px;
+    width: 85%;
+    height: 22px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 5px 0;
+    padding-left: 20px;
+    
+
+}
+#input_field >button{
+    margin-top: 15px;
+    width: 93%;
+    padding: 8px 0;
+    background-color: rgb(128, 201, 119);
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    
+    
+}
+#by_click{
+    font-size: 8px ;
+    font-weight:lighter;
+    color: lightgray;
+}
+#terms{
+    color: rgb(190, 61, 61);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+   #container{
+    flex-direction: column;
+    max-width: 600px;
+   }
+   #right_one >button{
+    padding: 18px 0;
+    font-size: 15px;
+    margin-top: 15px;
+   }
+   #left_one>h1{
+    text-align: center;
+    padding: 10px;
+
+   }
+   #left_one{
+    margin-bottom: 0;
+    padding: 0;
+   }
+   #left_one>h3{
+    font-size: 18px;
+    color: rgb(241, 237, 237);
+    font-weight: lighter;
+    line-height: 25px;
+    text-align: center;
+   }
+   #right_one{
+    margin: 20px;
+    margin-top: 0;
+   }
+   #input_field{
+    margin-top: 30px;
+   }
+   #input_field >input{
+    padding: 15px 0;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+   }
+   #input_field >button
+   {
+    padding: 15px 0;
+    font-size: 15px;
+
+   }
+   #by_click{
+    font-size: 15px;
+    line-height: 25px;
+   }
+   #terms{
+    font-size: 15px;
+   }
+
+  }
